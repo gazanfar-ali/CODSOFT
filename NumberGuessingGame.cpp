@@ -31,13 +31,13 @@ int main()
             cout << "Congratulations! You guessed the number " << randomNumber << " correctly in " << attempts << " attempts." << endl;
         } 
 		
-		else if (guess < randomNumber) 
-		{
+	else if (guess < randomNumber) 
+	{
             cout << "Too low! Try again." << endl;
         } 
 		
-		else 
-		{
+	else 
+	{
             cout << "Too high! Try again." << endl;
         }
         
